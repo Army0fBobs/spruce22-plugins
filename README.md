@@ -6,7 +6,7 @@ A collection of Claude Code plugins from Spruce22.
 
 ### [FunnyPenny](funnypenny/)
 
-A witty, high-integrity personal AI assistant. Markdown-only — no app, no server, no Docker.
+A witty, high-integrity personal AI assistant. Markdown-only — no app, no server.
 
 Helps with to-do management, recipe voting, grocery lists organized by store section, and remembers what you tell it across sessions. Personal data lives at `~/.funnypenny/` and never enters this repo.
 
