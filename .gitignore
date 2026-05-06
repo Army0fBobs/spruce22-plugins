@@ -1,0 +1,22 @@
+# Defense in depth — block personal-data filenames from any plugin at the
+# repo root, in case someone fat-fingers a copy. Each plugin also has its
+# own .gitignore inside its folder.
+
+/soul.md
+/memory.md
+/tasks.md
+/tasks-archive.md
+/our_recipes.md
+/my_voice.md
+/user.md
+/preferences.md
+/contacts.md
+/routines.md
+/grocery_layout.md
+.funnypenny/
+
+# Editor / OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

@@ -1,0 +1,24 @@
+# FunnyPenny — defense in depth.
+#
+# Personal data lives at ~/.funnypenny/ (outside this repo). These rules
+# block the same filenames at the repo *root* in case someone fat-fingers
+# a copy. Files under templates/ are explicitly preserved by the leading-
+# slash anchoring below.
+
+/soul.md
+/memory.md
+/tasks.md
+/tasks-archive.md
+/our_recipes.md
+/my_voice.md
+/user.md
+/preferences.md
+/contacts.md
+/routines.md
+.funnypenny/
+
+# Editor / OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/
