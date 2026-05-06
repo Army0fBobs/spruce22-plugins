@@ -1,0 +1,17 @@
+# Defense in depth.
+#
+# Personal data: PM profile lives at ~/.initiative-creator/ (outside this
+# repo); initiative-*.md files live in the PM's chosen CWD (also outside
+# this repo). These rules block both at this plugin's repo root in case
+# of an accidental copy. Files under templates/ are explicitly preserved
+# by the leading-slash anchoring below.
+
+/profile.md
+/initiative-*.md
+.initiative-creator/
+
+# Editor / OS noise
+.DS_Store
+*.swp
+.idea/
+.vscode/

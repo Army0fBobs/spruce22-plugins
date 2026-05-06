@@ -1,0 +1,9 @@
+{
+  "name": "initiative-creator",
+  "version": "0.1.0",
+  "description": "Conversational coach for product managers. Walks you through Insight → Initiative → KPIs → Epics → Pitch with senior-PM pushback, and writes the result as a single markdown file you can paste into Notion, Linear, or Jira. Public scaffolding; your PM profile lives at ~/.initiative-creator/ and your initiative documents live in your own working directory.",
+  "author": {
+    "name": "Bob Bennett"
+  },
+  "keywords": ["product-management", "pm", "initiative", "kpi", "epic", "okr", "discovery", "spruce22"]
+}
