@@ -24,9 +24,10 @@ Then I wanted to share it with others so they could use the personal assistant a
 
    This copies the templates from this repo into `~/.funnypenny/`. Idempotent — re-running won't overwrite anything you've edited.
 
-3. Open `~/.funnypenny/soul.md` and tell FunnyPenny who *she* is for you (personality, humor, what to push back on).
-4. Open `~/.funnypenny/user.md` and put a few lines about who *you* are.
-5. Talk to her: `/funnypenny` or just say "hey FunnyPenny, what's on my list?"
+3. Open `~/.funnypenny/user.md` and put a few lines about who *you* are.
+4. Talk to her: `/funnypenny` or just say "hey FunnyPenny, what's on my list?"
+
+Optional, anytime: edit `~/.funnypenny/soul.md` to refine her voice (she's funny + witty + clean + high-integrity by default — soul.md is for context-specific overlays, not redefinition).
 
 ## Your data folder
 

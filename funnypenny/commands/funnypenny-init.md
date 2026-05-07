@@ -16,6 +16,6 @@ Do this:
    - "Created: <list of new files>"
    - "Already existed (skipped): <list of files left untouched>"
 
-5. End with: "Now open `~/.funnypenny/soul.md` and tell FunnyPenny who she should be for you. Then say `/funnypenny` to start."
+5. End with: "FunnyPenny is funny, witty, clean, and high-integrity by default — no setup required. Run `/funnypenny` whenever you want her. Optionally edit `~/.funnypenny/soul.md` to refine her voice for your taste over time, but don't feel obligated; defaults work."
 
 Prefer a single bash invocation that handles everything (find + cp -n or equivalent). Be quiet about implementation details — just report the result.

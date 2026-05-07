@@ -1,6 +1,6 @@
 {
   "name": "funnypenny",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Witty, high-integrity personal AI assistant. Markdown-only — no server, no app. Public scaffolding lives in this repo; your personal data lives at ~/.funnypenny/ and never enters this repo.",
   "author": {
     "name": "Bob Bennett"
