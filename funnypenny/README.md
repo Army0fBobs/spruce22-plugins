@@ -8,6 +8,26 @@ Then I wanted to share it with others so they could use the personal assistant a
 
 ---
 
+## Use case: the friend who actually remembers
+
+FunnyPenny works as the friend who's good with computers and actually gets stuff done. She's funny by default — TARS-from-Interstellar style, dry, witty, never off-color. And she remembers what you tell her between sessions, because she writes it down to a folder on your machine that you control.
+
+She's great for the parts of life that aren't work — household logistics, family memory, your own to-do list, drafts in your voice.
+
+**For example:** Sunday night, you say *"what should I cook this week and what do I need to pick up at the store."* FunnyPenny will:
+
+- Pull from `our_recipes.md` (the family canon you've been adding to over weeks). Skip anything you cooked in the last 14 days. Mix in one wildcard.
+- **Vote with you on the meals** — present 5-7 options with who-loves-it and time-to-table, take your "yes / no / swap 6 for something faster" votes, lock the menu for the week.
+- **Build the grocery list** — aggregate the ingredients across the locked meals, drop anything in your pantry staples, and sort the list by the section order of *your* grocery store (`grocery_layout.md`). Output is copy-pasteable.
+
+That's three markdown files (`our_recipes.md`, `grocery_layout.md`, plus the `tasks.md` she nudges you on) acting in concert. No app, no server, no signup, no telemetry — and the next time you talk to her, she remembers what you cooked.
+
+**Other things she handles well:** drafting an email in your voice (she reads `my_voice.md`), nagging you about open loops you said you'd follow up on, capturing facts about family/work/preferences silently as you mention them.
+
+**Where this fits in your life:** FunnyPenny isn't competing with Apple Notes, Google Keep, your calendar, or the 14 to-do apps you've tried and abandoned. She's the *interface* on top — the conversational layer that knows what you've told her and acts on it. The data is plain markdown you can edit in any text editor. If you ever want to leave, you take the folder.
+
+---
+
 ## Install
 
 1. Install via the spruce22-plugins marketplace:
