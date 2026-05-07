@@ -4,6 +4,20 @@ A conversational PM coach that helps you write expertly-articulated initiatives 
 
 The output is a single markdown file you can paste into Notion, Linear, or Jira. The plugin doesn't try to be your PM tool; it just produces the artifact your PM tool needs.
 
+## Use case: an expert product partner
+
+Initiative Creator works as an expert product partner. It's conversational. And it can be tough but fair in forcing you to really articulate what you're building — with breadth (breadth is cheap now thanks to AI). It's great for product managers of all skill levels, junior to staff.
+
+**For example:** you want to "Create Push Notification Care Reminders for My Pet App." Initiative Creator will walk you through:
+
+- The **insight** that told you this was important — pushing back if you started from a feature instead of an observation.
+- The **KPIs** you'll use to measure success — hierarchically: top-line, sub-KPIs, retention check, revenue-vs-margin call, dashboard sketch.
+- A **full articulation** of the initiative, the epics, and acceptance criteria — including the epics you didn't think of (instrumentation, launch comms, internal tooling, the dependency you forgot exists).
+
+You leave with a single markdown document that holds up in a strategy review instead of one that needs five clarifying meetings. Your engineers get a brief they can actually scope; your leadership gets a pitch they can actually defend.
+
+**Where this fits in an enterprise:** this isn't a replacement for Notion / Linear / Jira / Aha. It's the *thinking partner* upstream of the PM tool — the part of the workflow that's currently a Google Doc, a whiteboard, or a 90-minute meeting. The artifact then lands in whatever PM system you already use.
+
 ## How it works
 
 You run `/initiative` in any working directory. The plugin walks you through five steps:
