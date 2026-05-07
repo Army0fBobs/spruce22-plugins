@@ -17,19 +17,6 @@
       "license": "MIT",
       "keywords": ["personal-assistant", "memory", "markdown", "tars", "moneypenny", "productivity"],
       "category": "productivity"
-    },
-    {
-      "name": "initiative-creator",
-      "source": "./initiative-creator",
-      "description": "Conversational coach for product managers. Walks you through Insight → Initiative → KPIs → Epics → Pitch with senior-PM pushback. Output is a single markdown file you can paste into Notion, Linear, or Jira. PM profile lives at ~/.initiative-creator/.",
-      "author": {
-        "name": "Bob Bennett"
-      },
-      "homepage": "https://github.com/Army0fBobs/spruce22-plugins/tree/main/initiative-creator",
-      "repository": "https://github.com/Army0fBobs/spruce22-plugins",
-      "license": "MIT",
-      "keywords": ["product-management", "pm", "initiative", "kpi", "epic", "okr", "discovery"],
-      "category": "product-management"
     }
   ]
 }

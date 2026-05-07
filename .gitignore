@@ -15,11 +15,6 @@
 /grocery_layout.md
 .funnypenny/
 
-# initiative-creator personal data
-/profile.md
-/initiative-*.md
-.initiative-creator/
-
 # Editor / OS noise
 .DS_Store
 *.swp
