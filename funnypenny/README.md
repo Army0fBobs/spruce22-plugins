@@ -10,11 +10,16 @@ Then I wanted to share it with others so they could use the personal assistant a
 
 ## Install
 
-1. Add the plugin to Claude Code:
+1. Clone this repo and add the plugin to Claude Code:
 
+   ```bash
+   git clone https://github.com/Army0fBobs/spruce22-plugins.git ~/spruce22-plugins
    ```
-   /plugin add /path/to/funnypenny
    ```
+   /plugin add ~/spruce22-plugins/funnypenny
+   ```
+
+   (Already have the repo cloned somewhere else? Just point `/plugin add` at that path.)
 
 2. Bootstrap your personal data folder:
 
