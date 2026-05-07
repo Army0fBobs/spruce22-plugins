@@ -8,7 +8,6 @@ A collection of Claude Code plugins from Spruce22.
 /plugin marketplace add Army0fBobs/spruce22-plugins
 /plugin install funnypenny@spruce22-plugins
 /plugin install initiative-creator@spruce22-plugins
-/plugin install spruce22-feedback@spruce22-plugins
 ```
 
 That's it — Claude Code handles cloning, caching, and updates.
@@ -21,7 +20,6 @@ If you want to hack on the plugins yourself:
 git clone https://github.com/Army0fBobs/spruce22-plugins.git ~/spruce22-plugins
 /plugin add ~/spruce22-plugins/funnypenny
 /plugin add ~/spruce22-plugins/initiative-creator
-/plugin add ~/spruce22-plugins/spruce22-feedback
 ```
 
 ## Plugins
@@ -54,16 +52,11 @@ cd ~/wherever-makes-sense
 
 See [initiative-creator/README.md](initiative-creator/README.md) for full setup and usage.
 
-### [Spruce22 Feedback](spruce22-feedback/)
+---
 
-A single-purpose plugin that adds an `/improve` slash command. Lets users file GitHub issues against this repo without leaving Claude Code — submits via `gh` CLI when available, falls back to opening a prefilled issue URL in the browser. Always shows a preview before submitting.
+## Feedback
 
-```
-/plugin install spruce22-feedback@spruce22-plugins
-/improve
-```
-
-See [spruce22-feedback/README.md](spruce22-feedback/README.md) for full setup and usage.
+Both plugins ship with an `/improve` slash command. Type `/improve` from inside Claude Code, answer two short questions, preview the issue, and it gets filed against this repo via your `gh` CLI (or a browser fallback if you don't have `gh`). Bob reviews and ships fixes from there. Issues land at [github.com/Army0fBobs/spruce22-plugins/issues](https://github.com/Army0fBobs/spruce22-plugins/issues).
 
 ---
 

@@ -60,6 +60,7 @@ Defense in depth: `.gitignore` at the plugin root blocks `profile.md` and `initi
 | `/initiative:init` | Bootstrap `~/.initiative-creator/profile.md`. |
 | `/initiative:resume <file>` | Pick up an in-progress initiative at the next unfinished step. |
 | `/initiative:update` | Pull plugin scaffolding updates. Never touches your data. |
+| `/improve [summary]` | File a GitHub issue against this plugin's repo (bug, feature, improvement, question). Shows a preview before submitting. |
 
 ## Coaching style
 

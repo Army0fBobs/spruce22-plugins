@@ -1,9 +1,0 @@
-{
-  "name": "spruce22-feedback",
-  "version": "0.1.0",
-  "description": "Single-purpose plugin: adds an /improve slash command that lets users file GitHub issues against the spruce22-plugins repo without leaving Claude Code. Submits via gh CLI when available, falls back to opening a prefilled issue URL in the browser. Always shows a preview before submission — no surprise issues.",
-  "author": {
-    "name": "Bob Bennett"
-  },
-  "keywords": ["feedback", "github", "issue", "spruce22", "improve"]
-}

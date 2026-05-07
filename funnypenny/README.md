@@ -77,6 +77,7 @@ Runs `git pull` on the plugin and surfaces any new template sections you might w
 | `/funnypenny:init` | First-time setup — bootstraps `~/.funnypenny/` from templates. |
 | `/funnypenny:update` | Pulls scaffolding improvements; never touches your data. |
 | `/funnypenny:remember <fact>` | Force-save a fact to the right file. |
+| `/improve [summary]` | File a GitHub issue against this plugin's repo (bug, feature, improvement, question). Shows a preview before submitting. |
 
 ## Why "FunnyPenny"
 
