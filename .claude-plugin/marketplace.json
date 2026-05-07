@@ -1,0 +1,35 @@
+{
+  "name": "spruce22-plugins",
+  "description": "A collection of useful Claude Code plugins for Product Managers and for parents.",
+  "owner": {
+    "name": "Bob Bennett"
+  },
+  "plugins": [
+    {
+      "name": "funnypenny",
+      "source": "./funnypenny",
+      "description": "Witty, high-integrity personal AI assistant. Markdown-only — no app, no server. Helps with to-do management, recipe voting, and grocery lists organized by store section. Funny, witty, clean, and high-integrity by default. Personal data lives at ~/.funnypenny/ and never enters this repo.",
+      "author": {
+        "name": "Bob Bennett"
+      },
+      "homepage": "https://github.com/Army0fBobs/spruce22-plugins/tree/main/funnypenny",
+      "repository": "https://github.com/Army0fBobs/spruce22-plugins",
+      "license": "MIT",
+      "keywords": ["personal-assistant", "memory", "markdown", "tars", "moneypenny", "productivity"],
+      "category": "productivity"
+    },
+    {
+      "name": "initiative-creator",
+      "source": "./initiative-creator",
+      "description": "Conversational coach for product managers. Walks you through Insight → Initiative → KPIs → Epics → Pitch with senior-PM pushback. Output is a single markdown file you can paste into Notion, Linear, or Jira. PM profile lives at ~/.initiative-creator/.",
+      "author": {
+        "name": "Bob Bennett"
+      },
+      "homepage": "https://github.com/Army0fBobs/spruce22-plugins/tree/main/initiative-creator",
+      "repository": "https://github.com/Army0fBobs/spruce22-plugins",
+      "license": "MIT",
+      "keywords": ["product-management", "pm", "initiative", "kpi", "epic", "okr", "discovery"],
+      "category": "product-management"
+    }
+  ]
+}

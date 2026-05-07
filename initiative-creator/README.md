@@ -18,16 +18,14 @@ Your initiative document is written incrementally as you go. If you're interrupt
 
 ## Install
 
-1. Clone this repo and add the plugin:
+1. Install via the spruce22-plugins marketplace:
 
-   ```bash
-   git clone https://github.com/Army0fBobs/spruce22-plugins.git ~/spruce22-plugins
    ```
-   ```
-   /plugin add ~/spruce22-plugins/initiative-creator
+   /plugin marketplace add Army0fBobs/spruce22-plugins
+   /plugin install initiative-creator@spruce22-plugins
    ```
 
-   (Already have the repo cloned somewhere else? Just point `/plugin add` at that path.)
+   (For local development, you can clone and add by path instead — see the [parent README](../README.md#install-alternative--local-clone-for-development).)
 
 2. Bootstrap your PM profile:
 

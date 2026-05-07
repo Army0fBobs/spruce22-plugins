@@ -10,16 +10,14 @@ Then I wanted to share it with others so they could use the personal assistant a
 
 ## Install
 
-1. Clone this repo and add the plugin to Claude Code:
+1. Install via the spruce22-plugins marketplace:
 
-   ```bash
-   git clone https://github.com/Army0fBobs/spruce22-plugins.git ~/spruce22-plugins
    ```
-   ```
-   /plugin add ~/spruce22-plugins/funnypenny
+   /plugin marketplace add Army0fBobs/spruce22-plugins
+   /plugin install funnypenny@spruce22-plugins
    ```
 
-   (Already have the repo cloned somewhere else? Just point `/plugin add` at that path.)
+   (For local development, you can clone and add by path instead — see the [parent README](../README.md#install-alternative--local-clone-for-development).)
 
 2. Bootstrap your personal data folder:
 
